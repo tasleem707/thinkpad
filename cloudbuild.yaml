@@ -3,4 +3,5 @@ steps:
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'asia-south1-docker.pkg.dev/${thematic-vertex-463206-a5}/newone/my-image', '.']
-CLOUD_LOGGING_ONLY logging
+options:
+  logging: CLOUD_LOGGING_ONLY
