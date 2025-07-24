@@ -2,6 +2,6 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'asia-south1-docker.pkg.dev/${thematic-vertex-463206-a5}/newone/my-image', '.']
+  args: ['build', '-t', 'asia-south1-docker.pkg.dev/${thematic-vertex-463206-a5}/newone/my-image:tag9', '.']
 options:
   logging: CLOUD_LOGGING_ONLY
